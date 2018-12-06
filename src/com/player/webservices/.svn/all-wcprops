@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/webservices
+END
+AuthConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/webservices/AuthConnection.java
+END
+SearchService.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/webservices/SearchService.java
+END
+Cloudstorage.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/webservices/Cloudstorage.java
+END
+EPG.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/webservices/EPG.java
+END

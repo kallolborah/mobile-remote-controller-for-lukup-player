@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EC108C"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/bottomlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:background="@android:color/transparent" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" >
+
+            <Button
+                android:id="@+id/ipBtn"
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_marginRight="12dip"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:gravity="right|center_vertical"
+                android:text="IP : "
+                android:background="#EC108C"
+                android:textColor="@color/white"
+                android:textSize="16dip" />
+
+            <EditText
+                android:id="@+id/iptext"
+                android:layout_width="104dip"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textColor="@color/gray_textcolor"
+                android:textStyle="bold" />
+        </TableRow>
+
+    
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dip"
+            android:background="@android:color/transparent" >
+
+            <Button
+                android:id="@+id/cityBtn"
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:layout_marginRight="12dip"
+                android:gravity="right|center_vertical"
+                android:text="Subnet : "
+                android:background="#EC108C"
+                android:textColor="@color/white"
+                android:textSize="16dip" />
+
+            <EditText
+                android:id="@+id/subnetText"
+                android:layout_width="104dip"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textColor="@color/gray_textcolor"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dip"
+            android:background="@android:color/transparent" >
+
+            <Button
+                android:id="@+id/countryBtn"
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:layout_marginRight="12dip"
+                android:gravity="right|center_vertical"
+                android:text="Gateway : "
+                android:background="#EC108C"
+                android:textColor="@color/white"
+                android:textSize="16dip" />
+
+            <EditText
+                android:id="@+id/gatewayText"
+                android:layout_width="104dip"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textColor="@color/gray_textcolor"
+                android:textStyle="bold" />
+        </TableRow>
+        
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dip"
+            android:background="@android:color/transparent" >
+
+            <Button
+                android:id="@+id/dnsBtn"
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:layout_marginRight="12dip"
+                android:gravity="right|center_vertical"
+                android:text="DNS : "
+                android:background="#EC108C"
+                android:textColor="@color/white"
+                android:textSize="16dip" />
+
+            <EditText
+                android:id="@+id/dnsText"
+                android:layout_width="104dip"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textColor="@color/gray_textcolor"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/location_save"
+        android:layout_width="160dip"
+        android:layout_height="40dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="182dip"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Save"
+        android:textColor="@color/pink"
+        android:textSize="16dip" />
+
+</LinearLayout>

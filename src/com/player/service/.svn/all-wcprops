@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/service
+END
+BouquetInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/service/BouquetInfo.java
+END
+ProgramInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/service/ProgramInfo.java
+END
+UpnpService.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/service/UpnpService.java
+END
+ChannelInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/service/ChannelInfo.java
+END
+PackageInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/service/PackageInfo.java
+END
+CacheDockData.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/service/CacheDockData.java
+END

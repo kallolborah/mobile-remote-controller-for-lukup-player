@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="0dip" >
+
+    <!--
+         <ImageView
+       	android:layout_width="fill_parent"
+       	android:layout_height="2dip"
+       	android:scaleType="fitXY"
+       	android:gravity="center"
+       	android:src="@drawable/button_gradient"/>
+    -->
+
+    <TableLayout
+        android:id="@+id/custom_menu_table"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="1dip"
+        android:stretchColumns="*" >
+    </TableLayout>
+
+</RelativeLayout>

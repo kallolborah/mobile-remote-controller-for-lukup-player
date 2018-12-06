@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="106dip"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="106dip" >
+    	<View
+		 	android:id="@+id/lineview1" 
+	  	 	android:layout_width="1dip"
+	  	 	android:layout_height="match_parent"
+	  	 	android:layout_alignParentLeft="true"
+	  	 	android:background="@color/pink"/>
+		<View
+		 	android:id="@+id/lineview2" 
+	  	 	android:layout_width="match_parent"
+	  	 	android:layout_height="1dip"
+	  	 	android:layout_alignParentTop="true"
+	  	 	android:background="@color/pink"/>
+	    <ImageView
+	        android:id="@+id/custom_menu_item_icon"
+	        android:layout_width="64dip"
+	        android:layout_height="64dip"
+	        android:gravity="center"
+	        android:src="@drawable/defaultimage"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="8dip"
+	        android:layout_marginBottom="8dip"
+	        android:paddingBottom="2dip"
+	        android:paddingTop="2dip" />
+	
+	    <TextView
+	        android:id="@+id/custom_menu_item_caption"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_below="@+id/custom_menu_item_icon"
+	        android:layout_centerHorizontal="true"
+	        android:text="contextMenu"
+	        android:textColor="@color/pink"
+	        android:textSize="16dip" />
+		<View
+		 	android:id="@+id/lineview3" 
+	  	 	android:layout_width="1dip"
+	  	 	android:layout_height="match_parent"
+	  	 	android:layout_alignParentRight="true"
+	  	 	android:background="@color/pink"/>
+		<View
+		 	android:id="@+id/lineview4" 
+	  	 	android:layout_width="match_parent"
+	  	 	android:layout_height="1dip"
+	  	 	android:layout_alignParentBottom="true"
+	  	 	android:background="@color/pink"/>
+	</RelativeLayout>
+</LinearLayout>

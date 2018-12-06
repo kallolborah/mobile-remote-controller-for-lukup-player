@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/baseLayout"
+        android:layout_width="280dip"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/headerLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:background="@android:color/transparent" >
+
+            <TextView
+                android:id="@+id/overlayTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="20dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="12dip"
+                android:paddingTop="0dip"
+                android:textColor="@color/blue_textcolor"
+                android:textSize="16dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="198dip"
+            android:layout_marginBottom="16dip"
+            android:layout_weight="0.17"
+            android:background="@android:color/transparent"
+            android:orientation="vertical" >
+            
+             <EditText
+                android:id="@+id/typeValue"
+                android:layout_width="240dip"
+                android:layout_height="36dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="24dip"
+                android:paddingLeft="4dip"
+                android:text=""
+                android:textColor="#CCCCCC"
+                android:textSize="14dip"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/urlValue"
+                android:layout_width="240dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="15dip"
+                android:hint="enter password"
+                android:ems="10"
+                android:paddingLeft="6dip"
+                android:textColorHint="#555555"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <LinearLayout
+                android:id="@+id/dropdown"
+                android:layout_width="240dip"
+                android:layout_height="36dip"
+                android:layout_marginTop="10dip"
+                android:layout_below="@+id/urlValue"
+                android:layout_marginLeft="20dip"
+                android:background="@drawable/list_selector"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/dropdownText"
+                    android:layout_width="210dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="1dip"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="18dip"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/dropdownButton"
+                    android:layout_width="30dip"
+                    android:layout_height="36dip"
+                    android:layout_gravity="center"
+                    android:background="@drawable/form_dropdown_01"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dropdownlistlay"
+                android:layout_width="240dip"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/dropdown"
+                android:layout_marginLeft="20dip"
+                android:background="@color/pink"
+                android:gravity="center_horizontal" 
+                android:visibility="gone" >
+            </LinearLayout>
+
+           <LinearLayout
+            android:id="@+id/dialogLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="36dip"
+            android:layout_alignParentBottom="true"
+            
+            android:layout_marginRight="20dip"
+            android:layout_marginLeft="20dip"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/overlayOkButton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/list_selector"
+                android:gravity="center"
+                android:text="CONNECT"
+                android:textColor="@color/white"
+                android:layout_marginRight="10dip"
+                android:textSize="14dip" />
+
+            <Button
+                android:id="@+id/overlayCancelButton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/list_selector"
+                android:gravity="center"
+                android:text="CANCEL"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dip"
+                android:textSize="14dip" />
+        </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

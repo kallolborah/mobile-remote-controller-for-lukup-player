@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:background="@color/white"
+        android:orientation="vertical" >
+        <RelativeLayout
+	        android:id="@+id/searchBox"
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dip"
+	        android:layout_gravity="center_vertical"
+	        android:layout_margin="10dip"
+	        android:background="#FFFFFF"
+	        android:gravity="center_vertical" >
+			<RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@color/blue_textcolor"
+	            android:padding="1dip">
+	        <EditText
+	            android:id="@+id/search_field"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:background="#FFFFFF"
+	            android:cursorVisible="true"
+	            android:hint="@string/SEARCH_MSG"
+	            android:editable="true"
+	            android:paddingLeft="10dip"
+	            android:paddingRight="10dip"
+	            android:singleLine="true"
+	            android:text="" />
+			<RelativeLayout
+	            android:layout_width="40dip"
+		        android:layout_height="40dip"
+		        android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:background="@android:color/white"
+	            android:padding="1dip">
+		        <Button
+		            android:id="@+id/search_Btn"
+		            android:layout_width="40dip"
+		            android:layout_height="40dip"
+		            android:layout_alignParentRight="true"
+		            android:layout_centerVertical="true"
+		            android:background="@drawable/v13_ico_search_01_b"
+		            android:gravity="center_vertical|center_horizontal"
+		            android:textColor="@color/blue_textcolor" />
+		        </RelativeLayout>
+	        </RelativeLayout>
+	    </RelativeLayout>
+        <View
+		 	android:id="@+id/lineview1" 
+	  		android:layout_weight="1" 
+	  	 	android:layout_width="match_parent"
+	  	 	android:layout_height="2dip"
+	  	 	android:layout_alignParentBottom="true"
+	  	 	android:background="#000000"/>
+    </RelativeLayout>
+	
+    <RelativeLayout
+        android:id="@+id/searchRL" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/playlist"
+        android:orientation="vertical" >
+       <ListView
+            android:id="@+id/lukuplist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent" >
+        </ListView>
+        
+        
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    android:baselineAligned="true" >
+
+    <RelativeLayout
+        android:id="@+id/uplayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="52dip"
+        android:layout_marginLeft="41dip"
+        android:layout_marginRight="41dip"
+        android:layout_marginTop="52dip"
+        android:background="@color/lukupwhite" >
+
+        <RelativeLayout
+            android:id="@+id/mlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="43dip" >
+
+            <LinearLayout
+                android:id="@+id/gamecontroll_right_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/gamecontroll_left_container"
+                android:layout_marginLeft="16dip"
+                android:layout_toRightOf="@+id/gamecontroll_left_container"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/gamecontroll_right_plus"
+                    android:layout_width="36dip"
+                    android:layout_height="18dip"
+                    android:layout_gravity="center"
+                    android:background="@drawable/gp_arw_up" />
+
+                <LinearLayout
+                    android:id="@+id/gamecontroll_right_middlelayer"
+                    android:layout_width="100dip"
+                    android:layout_height="48dip"
+                    android:background="@android:color/transparent" >
+
+                    <TextView
+                        android:id="@+id/gamecontroll_right_display"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48dip"
+                        android:editable="false"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="BUTTON B"
+                        android:textColor="#000000" >
+                    </TextView>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/gamecontroll_right_minus"
+                    android:layout_width="36dip"
+                    android:layout_height="18dip"
+                    android:layout_gravity="center"
+                    android:background="@drawable/gp_arw_down" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gamecontroll_left_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/gamecontroll_left_plus"
+                    android:layout_width="36dip"
+                    android:layout_height="18dip"
+                    android:layout_gravity="center"
+                    android:background="@drawable/gp_arw_up" />
+
+                <LinearLayout
+                    android:id="@+id/gamecontroll_left_middlelayer"
+                    android:layout_width="100dip"
+                    android:layout_height="48dip"
+                    android:background="@android:color/transparent" >
+
+                    <TextView
+                        android:id="@+id/gamecontroll_left_display"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48dip"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="BUTTON A"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/gamecontroll_left_minus"
+                    android:layout_width="36dip"
+                    android:layout_height="18dip"
+                    android:layout_gravity="center"
+                    android:background="@drawable/gp_arw_down" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/blayout"
+            android:layout_width="match_parent"
+            android:layout_height="46dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" >
+
+            <Button
+                android:id="@+id/gamecontroll_link"
+                android:layout_width="112dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="16dip"
+                android:background="@color/pink"
+                android:text="LINK"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/gamecontroll_edit"
+                android:layout_width="112dip"
+                android:layout_height="30dip"
+                android:layout_centerHorizontal="true"
+                android:background="@color/pink"
+                android:text="EDIT"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/gamecontroll_link2"
+                android:layout_width="112dip"
+                android:layout_height="30dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dip"
+                android:background="@color/pink"
+                android:text="CANCEL"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

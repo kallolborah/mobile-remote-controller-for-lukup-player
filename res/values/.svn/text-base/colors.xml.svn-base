@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="media_controller_text_color">#FFFFFF</color>
+    <color name="media_controller_bg_color">#5f5f5f</color>
+    <color name="seekbar_bg">#141414</color>
+    <color name="seekbar_progress">#960064</color>
+    <color name="seekbar_sec_progress">#960064</color>
+    <color name="gray">#E6E6E6</color>
+    <color name="blue_textcolor">#4D68B1</color>
+    <color name="gray_textcolor">#666666</color>
+    <color name="pink">#EC108C</color>
+    <color name="listviewcolor1">#F2F2F2</color>
+    <color name="listviewcolor2">#D9D9D9</color>
+	<color name="profilecolor1">#108B43</color>
+	<color name="profilecolor2">#E5A123</color>
+	<color name="settings">#FBD014</color>
+	<color name="search">#108B43</color>
+	<color name="playlist">#EC108C</color>
+	<color name="storage">#AA2B90</color>
+	<color name="lightgray">#f1f1f1</color>
+	<color name="white">#FFFFFF</color>
+	<color name="transparent">#00000000</color>
+	
+<!-- 	mobile -->
+<!-- 	<color name="transparent">#20FFFFFF</color> -->
+    <color name="transparent_blue">#8800AFFF</color>
+    <color name="transparent_white">#88FFFFFF</color>
+    <color name="transparent_green">#8800ff00</color>
+    <color name="mobilecolor">#b3005b</color>
+	
+</resources>

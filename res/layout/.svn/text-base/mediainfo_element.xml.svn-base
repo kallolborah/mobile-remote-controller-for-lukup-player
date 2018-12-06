@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:paddingTop="20dip" >
+
+    <TextView
+        android:id="@+id/detailmovie_header"
+        android:layout_width="wrap_content"
+        android:layout_height="16dip"
+        android:layout_marginLeft="10dip"
+        android:text="Artist"
+        android:textColor="#FFFFFF"
+        android:textSize="14dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detailmovie_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="Ar"
+        android:textColor="#FFFFFF"
+        android:textSize="12dip" />
+
+</LinearLayout>

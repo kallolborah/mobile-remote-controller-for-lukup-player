@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/android-player/!svn/ver/8/trunk/src/res/values
+END
+colors.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/android-player/!svn/ver/8/trunk/src/res/values/colors.xml
+END
+styles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/android-player/!svn/ver/8/trunk/src/res/values/styles.xml
+END
+strings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/android-player/!svn/ver/8/trunk/src/res/values/strings.xml
+END
+attr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/android-player/!svn/ver/8/trunk/src/res/values/attr.xml
+END
+dimens.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/android-player/!svn/ver/8/trunk/src/res/values/dimens.xml
+END

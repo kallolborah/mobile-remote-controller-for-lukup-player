@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay_mode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutschedule_mode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10px"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/appName1"
+            android:layout_width="110px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="10px"
+            android:text="Mondayddddd"
+            android:textColor="@color/white"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/schedule_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40px"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="10px"
+            android:textColor="@color/white"
+            android:gravity="right"
+            android:text="from 10:00 Hrs to 18:00 Hrs"
+            android:textSize="12px"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</LinearLayout>

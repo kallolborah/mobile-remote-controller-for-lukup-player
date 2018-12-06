@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent" >
+    <LinearLayout
+        android:id="@+id/dialogLayout"
+        android:layout_width="280dip"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/overlayheader"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:background="@android:color/transparent" >
+
+            <TextView
+                android:id="@+id/overlayTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="20dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="12dip"
+                android:textColor="@color/pink"
+                android:textSize="16dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/actionlayer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dip"
+            android:background="@android:color/transparent"
+            android:orientation="vertical" >
+
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="200dip"
+                android:layout_height="36dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="10dip"
+                android:hint=""
+                android:paddingLeft="8dip"
+                android:textColor="@android:color/black"
+                android:textSize="16dip" />
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="200dip"
+                android:layout_height="36dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="5dip"
+                android:hint=""
+                android:paddingLeft="8dip"
+                android:textColor="@android:color/black"
+                android:textSize="16dip"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:layout_marginBottom="20dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/connect"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/list_selector"
+                android:gravity="center"
+                android:text="LOGIN"
+                android:layout_marginRight="10dip"
+                android:textColor="@color/white"
+                android:textSize="14dip" />
+
+            <Button
+                android:id="@+id/overlayCancelButton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/list_selector"
+                android:gravity="center"
+                android:text="CLOSE"
+                android:layout_marginLeft="10dip"
+                android:textColor="@color/white"
+                android:textSize="14dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

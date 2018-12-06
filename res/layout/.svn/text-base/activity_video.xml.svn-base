@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <VideoView
+        android:id="@+id/videoPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <!-- android:visibility="invisible" -->
+
+	<RelativeLayout
+        android:id="@+id/layoutImage"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        android:background="@drawable/list" >
+        <ImageView
+               android:id="@+id/audioImage"
+               android:layout_width="200dip"
+     		   android:layout_height="200dip"
+               android:layout_centerInParent="true"
+               android:src="@drawable/defaultimage" />
+     </RelativeLayout>
+     
+	<RelativeLayout
+        android:id="@+id/progresLayout"
+        android:layout_width="100dip"
+       	android:layout_height="100dip"
+       	android:visibility="invisible"
+        android:background="@drawable/up"
+        android:layout_centerInParent="true" >
+        
+<!-- 	    style="@style/TransparentProgressDialog" -->
+        <ProgressBar
+		    android:id="@+id/progressBar"
+		    android:layout_width="100dip"
+        	android:layout_height="100dip"
+        	android:visibility="invisible"
+	        android:indeterminateDrawable="@drawable/progress_indeterminate"/>
+        </RelativeLayout>
+	
+    <RelativeLayout
+        android:id="@+id/layoutlike"
+        android:layout_width="60dip"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dip"
+        android:layout_marginRight="10dip"
+        android:layout_toLeftOf="@+id/layoutskip"
+        android:visibility="invisible"
+        android:background="#000000" >
+
+        <Button
+            android:id="@+id/like"
+            android:layout_width="60dip"
+            android:layout_height="40dip"
+            android:background="@drawable/button_selector"
+            android:text="Like"
+            android:textColor="#f1f1f1"
+            android:textSize="22dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutskip"
+        android:layout_width="60dip"
+        android:layout_height="40dip"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dip"
+        android:layout_marginRight="10dip"
+        android:background="#000000" >
+
+        <Button
+            android:id="@+id/skip"
+            android:layout_width="60dip"
+            android:layout_height="40dip"
+            android:background="@drawable/button_selector"
+            android:text="Skip"
+            android:textColor="#f1f1f1"
+            android:textSize="22dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

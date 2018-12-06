@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/base"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="0dip"
+    android:background="@color/playlist" >
+
+    <RelativeLayout
+        android:id="@+id/statusBar"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:layout_marginLeft="0dip"
+        android:layout_marginTop="0dip"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/seekbarSound_mute"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:onClick="OnMuteBtn"
+            android:background="@drawable/v13_ico_speaker_mute_01" />
+        
+        <SeekBar
+            android:id="@+id/whiteBalanceSeek"
+            android:layout_width="90dip"
+            android:layout_height="24dip"
+            android:layout_marginTop="3dip"
+            android:layout_toRightOf="@+id/seekbarSound_mute"
+            android:gravity="center_vertical|center_horizontal"
+            android:max="100"
+            android:maxHeight="4dip"
+            android:progress="4"
+            android:progressDrawable="@drawable/v13_custom_seekbar"
+            android:thumb="@drawable/v13_customseekbar_thumb" />
+
+        <ImageButton
+            android:id="@+id/seekbarSound_loud"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:onClick="OnLoudBtn"
+            android:layout_toRightOf="@+id/whiteBalanceSeek"
+            android:background="@drawable/v13_ico_speaker_max_01" />
+
+	   <ImageButton
+            android:id="@+id/sb_alert_button"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:background="@drawable/v13_ico_notification_01"
+            android:layout_toLeftOf="@+id/sb_bluetooth_button" />
+
+        <ImageButton
+            android:id="@+id/sb_ethernet_button"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_toLeftOf="@+id/sb_battry_button"
+            android:background="@drawable/v13_ico_network_01" />
+
+        <ImageButton
+            android:id="@+id/sb_bluetooth_button"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_toLeftOf="@+id/sb_ethernet_button"
+            android:background="@drawable/v13_ico_wifi_a_01" />
+
+        <ImageButton
+            android:id="@+id/sb_battry_button"
+            android:layout_width="24dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="8dip"
+            android:background="@drawable/v13_ico_battery_small_a_01" />
+		<View
+	 	android:id="@+id/lineview1" 
+  		android:layout_weight="1" 
+  	 	android:layout_width="match_parent"
+  	 	android:layout_height="1dip"
+  	 	android:layout_alignParentBottom="true"
+  	 	android:background="@color/gray_textcolor"/>
+       
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/navigationscreen"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dip"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    
+<!--     android:visibility="invisible" -->
+    <LinearLayout
+        android:id="@+id/bottomlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="64dip"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:background="@android:color/white" >
+             <Button
+                 android:id="@+id/guestBtn"
+                 android:layout_width="match_parent"
+                 android:layout_height="42dip"
+                 android:layout_marginLeft="12dip"
+                 android:layout_marginRight="12dip"
+                 android:layout_marginTop="8dip"
+                 android:layout_marginBottom="8dip"
+                 android:background="@drawable/v13_btn_ok_01"
+                 android:padding="12dip"
+                 android:text="Guest"
+                 android:layout_weight="1"
+                 android:textColor="@color/pink"
+                 android:textStyle="normal" />
+
+             <Button
+                 android:id="@+id/swithprofileBtn"
+                 android:layout_width="match_parent"
+                 android:layout_height="42dip"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginRight="12dip"
+                 android:layout_marginTop="8dip"
+                 android:layout_marginBottom="8dip"
+                 android:background="@drawable/v13_btn_ok_01"
+                 android:padding="12dip"
+                 android:text="Switch Profile"
+                 android:layout_weight="1"
+                 android:textColor="@color/pink"
+                 android:textStyle="normal" />
+   		 </LinearLayout>
+    
+ 
+    <VideoView
+            android:id="@+id/videoPlayer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    
+    
+        <com.google.android.exoplayer.VideoSurfaceView
+            android:id="@+id/surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+</RelativeLayout>

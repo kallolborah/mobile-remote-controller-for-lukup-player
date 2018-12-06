@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/popup_cancel"
+        android:layout_width="100dip"
+        android:layout_height="35dip"
+        android:layout_alignLeft="@+id/popup_edittext_input"
+        android:layout_below="@+id/popup_edittext_input"
+        android:layout_marginTop="20dp"
+        android:background="@color/pink"
+        android:textColor="@color/white"
+        android:text="CANCEL" />
+
+    <Button
+        android:id="@+id/popup_add"
+        android:layout_width="100dip"
+        android:layout_height="35dip"
+        android:layout_alignBaseline="@+id/popup_cancel"
+        android:layout_alignBottom="@+id/popup_cancel"
+        android:layout_alignRight="@+id/popup_edittext_input"
+        android:layout_marginRight="2dp"
+         android:background="@color/pink"
+        android:textColor="@color/white"
+        android:text="ADD" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/popup_cancel"
+        android:layout_marginTop="15px"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/popup_input_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26px"
+        android:layout_marginTop="10dp"
+        android:text="Add Name to camera"
+        android:textColor="@color/pink"
+        android:textSize="18px" />
+
+    <EditText
+        android:id="@+id/popup_edittext_input"
+        android:layout_width="240dip"
+        android:layout_height="30dip"
+        android:layout_alignLeft="@+id/popup_input_add"
+        android:layout_below="@+id/popup_input_add"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_border"
+        android:ems="10"
+     
+        android:gravity="center"
+        android:hint="Enter camera name"
+        android:textSize="16px" />
+
+</RelativeLayout>

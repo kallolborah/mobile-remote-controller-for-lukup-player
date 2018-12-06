@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.player"
+    android:versionCode="07212050"
+    android:versionName="2.0.5" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	
+	<permission
+        android:name="com.player.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.player.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="com.player.Player"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name" >
+        
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        
+        <activity
+            android:name="com.player.apps.AppGuide"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+
+                <!-- <category android:name="android.intent.category.HOME" /> -->
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|keyboard"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:label="@string/app_name" />
+        
+        <activity
+            android:name="com.player.apps.Profile"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.player.apps.Guide"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.player.apps.Home"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.player.apps.Setup"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.player.apps.Search"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.player.apps.Screens"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.player.apps.Navigator"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.player.apps.Notification"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.player.apps.PlayBack"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.player.apps.Storage"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.player.apps.PlayList"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.player.apps.Organise"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.player.apps.TVRemote"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.player.apps.DVBRemote"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.player.apps.Plan"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.player.apps.Keypad"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity
+            android:name="com.player.apps.GamePad"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme" />
+<!--         <activity -->
+<!--             android:name="com.player.mobile.VideoActivity" -->
+<!--             android:configChanges="keyboardHidden|orientation|screenSize" -->
+<!--             android:screenOrientation="landscape" /> -->
+<!--         <activity -->
+<!--             android:name="com.player.mobile.ToastDisplayer" -->
+<!--             android:configChanges="keyboardHidden|orientation" -->
+<!--             android:theme="@style/LukUpTheme" /> -->
+<!--         <activity -->
+<!--             android:name="com.player.mobile.SharedVideo" -->
+<!--             android:configChanges="keyboardHidden|orientation|screenSize" -->
+<!--             android:screenOrientation="landscape" /> -->
+<!--         <activity -->
+<!--             android:name="com.player.mobile.InfoActivity" -->
+<!--             android:configChanges="keyboardHidden|orientation" -->
+<!--             android:theme="@style/LukUpTheme" /> -->
+        <activity
+            android:name="com.player.action.DlnaRenderer"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+		<activity
+            android:name="com.player.action.Play"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme" >
+        </activity>
+        
+        <service android:name="org.teleal.cling.android.AndroidUpnpServiceImpl" />
+        <service android:name="com.player.service.UpnpService" />
+        <service
+            android:name="com.player.apps.GuideService"
+            android:enabled="true" />
+        <service
+            android:name="com.player.UpdateService"
+            android:enabled="true" />
+        <service
+            android:name="com.player.NotificationsService"
+            android:enabled="true" />
+        <service
+            android:name="com.player.network.BluetoothConnectionService"
+            android:enabled="true"  />
+        <service
+            android:name="com.player.network.WifiP2PConnectionService"
+            android:enabled="true" />
+        <service
+            android:name="com.player.webservices.SearchService"
+            android:enabled="true" />
+        <service
+            android:name="com.player.webservices.Cloudstorage"
+            android:enabled="true" />
+		<service
+            android:name="com.player.webservices.EPG"
+            android:enabled="true" />
+        <provider
+            android:name="com.player.util.DataProvider"
+            android:authorities="com.player.util.DataProvider"
+            android:exported="true"
+            android:multiprocess="true" >
+        </provider>
+        
+        <receiver android:name="mBTConnectionReceiver"
+            android:enabled="true"></receiver>
+        
+        <service android:name="com.parse.PushService" />
+        <receiver android:name="com.parse.ParseBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.player" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.player.Updates"
+		    android:exported="false">
+		    <intent-filter>
+		       <action android:name="com.parse.push.intent.RECEIVE" />
+		       <action android:name="com.parse.push.intent.DELETE" />
+		       <action android:name="com.parse.push.intent.OPEN" />
+		    </intent-filter>
+		</receiver>
+		
+        <provider android:authorities="com.facebook.app.FacebookContentProvider210799812304634" 
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/>
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,214 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/playlist"
+    tools:context=".BouquetActivity" >
+    <RelativeLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="58dip"
+        android:focusable="true"
+        android:visibility="visible"
+        android:background="@drawable/list" >
+        <RelativeLayout
+	        android:id="@+id/searchtextLayout"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="#ffffff"
+	        android:layout_margin="5dip"
+	        android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/searchtext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18dip"
+			    android:singleLine="true"	
+			    android:paddingLeft="5dip"
+			    android:hint="Enter Title, Actor name"
+			    android:textColorHint="#555555"
+			    android:gravity="center_vertical"
+			    android:background="#00000000"
+			    android:textColor="@android:color/black"
+                android:tag="Search" />
+            
+            <ImageView
+                android:id="@+id/searchimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icn_search" />
+	    </RelativeLayout>
+	    <View
+	 	android:id="@+id/lineview1" 
+  	 	android:layout_width="match_parent"
+  	 	android:layout_height="1dip"
+  	 	android:layout_alignParentBottom="true"
+  	 	android:background="#000000"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topLayout"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="64dip" >
+        <ListView
+	        android:id="@+id/listView"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:scrollingCache="false"
+	        android:cacheColorHint="@android:color/transparent"
+	        android:listSelector="@android:color/transparent" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/progresLayout"
+        android:layout_width="100dip"
+       	android:layout_height="100dip"
+       	android:visibility="invisible"
+        android:background="@drawable/up"
+        android:layout_centerInParent="true" >
+        <ProgressBar
+		    android:id="@+id/progressBar"
+		    android:layout_width="100dip"
+        	android:layout_height="100dip"
+        	android:visibility="invisible"
+	        android:indeterminateDrawable="@drawable/progress_indeterminate"/>
+        </RelativeLayout>
+    
+<!--     <RelativeLayout -->
+<!--         android:id="@+id/bottomLayout" -->
+<!--         android:visibility="invisible" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="48dip" -->
+<!--         android:layout_alignParentBottom="true" -->
+<!--         android:background="@drawable/list" > -->
+<!--         <LinearLayout -->
+<!-- 	        android:id="@+id/bottomLayout1" -->
+<!-- 	        android:layout_width="match_parent" -->
+<!-- 	        android:layout_height="48dip" -->
+<!-- 	        android:layout_alignParentBottom="true" -->
+<!-- 	        android:background="@drawable/list" > -->
+<!-- 	        <LinearLayout -->
+<!-- 		        android:id="@+id/innerbottomLayout1" -->
+<!-- 		        android:layout_width="fill_parent" -->
+<!-- 		        android:layout_height="match_parent" -->
+<!-- 		        android:layout_weight="10" -->
+<!-- 		        android:background="@drawable/list" > -->
+<!-- 	            <Button -->
+<!-- 	                android:id="@+id/backbutton" -->
+<!-- 	                android:layout_width="match_parent" -->
+<!-- 	                android:layout_height="match_parent" -->
+<!-- 	                android:focusable="true" -->
+<!-- 	                android:gravity="center_horizontal|center" -->
+<!-- 	                android:background="@drawable/button_selector" -->
+<!-- 	                android:textSize="16dip" -->
+<!-- 	                android:text="BACK" -->
+<!-- 	                android:textStyle="bold" -->
+<!-- 	                android:textColor="#ffffff" /> -->
+<!-- 	   		 </LinearLayout> -->
+<!-- 	   		 <LinearLayout -->
+<!-- 		        android:id="@+id/innerbottomLayout2" -->
+<!-- 		        android:layout_width="fill_parent" -->
+<!-- 		        android:layout_height="match_parent" -->
+<!-- 		        android:layout_weight="10" -->
+<!-- 		        android:layout_marginLeft="2dip" -->
+<!-- 		        android:background="@drawable/list" > -->
+<!-- 	            <Button -->
+<!-- 	                android:id="@+id/menubutton" -->
+<!-- 	                android:layout_width="match_parent" -->
+<!-- 	                android:layout_height="match_parent" -->
+<!-- 	                android:gravity="center_horizontal|center" -->
+<!-- 	                android:background="@drawable/button_selector" -->
+<!-- 	                android:textSize="16dip" -->
+<!-- 	                android:text="MENU" -->
+<!-- 	                android:textStyle="bold" -->
+<!-- 	                android:textColor="#ffffff" /> -->
+<!-- 	   		 </LinearLayout> -->
+<!--    		 </LinearLayout> -->
+<!--     </RelativeLayout> -->
+
+<!-- 	<LinearLayout -->
+<!--         android:id="@+id/bottomLayout" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="48dip" -->
+<!--         android:layout_alignParentBottom="true" -->
+<!--         android:background="@drawable/list" > -->
+<!--         <LinearLayout -->
+<!-- 	        android:id="@+id/innerbottomLayout1" -->
+<!-- 	        android:layout_width="fill_parent" -->
+<!-- 	        android:layout_height="match_parent" -->
+<!-- 	        android:layout_weight="10" -->
+<!-- 	        android:background="@drawable/list" > -->
+<!--             <Button -->
+<!--                 android:id="@+id/backbutton" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="match_parent" -->
+<!--                 android:gravity="center_horizontal|center" -->
+<!--                 android:background="@drawable/button_selector" -->
+<!--                 android:textSize="16dip" -->
+<!--                 android:textStyle="bold" -->
+<!--                 android:text="BACK" -->
+<!--                 android:textColor="#ffffff" /> -->
+<!--    		 </LinearLayout> -->
+<!--    		 <LinearLayout -->
+<!-- 	        android:id="@+id/innerbottomLayout2" -->
+<!-- 	        android:layout_width="fill_parent" -->
+<!-- 	        android:layout_height="match_parent" -->
+<!-- 	        android:layout_weight="10" -->
+<!-- 	        android:layout_marginLeft="2dip" -->
+<!-- 	        android:background="@drawable/list" > -->
+<!--             <Button -->
+<!--                 android:id="@+id/menubutton" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="match_parent" -->
+<!--                 android:gravity="center_horizontal|center" -->
+<!--                 android:background="@drawable/button_selector" -->
+<!--                 android:textSize="16dip" -->
+<!--                 android:textStyle="bold" -->
+<!--                 android:text="MENU" -->
+<!--                 android:textColor="#ffffff" /> -->
+<!--    		 </LinearLayout> -->
+<!--         </LinearLayout> -->
+
+		<LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="64dip"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible"
+        android:background="@android:color/white" >
+             <Button
+                 android:id="@+id/backbutton"
+                 android:layout_width="match_parent"
+                 android:layout_height="42dip"
+                 android:layout_marginLeft="12dip"
+                 android:layout_marginRight="12dip"
+                 android:layout_marginTop="8dip"
+                 android:layout_marginBottom="8dip"
+                 android:background="@drawable/v13_btn_ok_01"
+                 android:text="BACK"
+                 android:layout_weight="1"
+                 android:textColor="@color/pink"
+                 android:textStyle="normal" />
+
+             <Button
+                 android:id="@+id/menubutton"
+                 android:layout_width="match_parent"
+                 android:layout_height="42dip"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginRight="12dip"
+                 android:layout_marginTop="8dip"
+                 android:layout_marginBottom="8dip"
+                 android:background="@drawable/v13_btn_ok_01"
+                 android:text="MENU"
+                 android:layout_weight="1"
+                 android:textColor="@color/pink"
+                 android:textStyle="normal" />
+   		 </LinearLayout>
+</RelativeLayout>

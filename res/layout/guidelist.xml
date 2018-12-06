@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/playlist"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/lukupContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/playlist" >
+
+        <ListView
+            android:id="@+id/lukuplist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent" >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

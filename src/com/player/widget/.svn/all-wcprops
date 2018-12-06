@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/widget
+END
+CustomMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/widget/CustomMenu.java
+END
+ConnectionSetupAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/widget/ConnectionSetupAdapter.java
+END
+CustomListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/widget/CustomListView.java
+END
+OverLay.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/widget/OverLay.java
+END
+ImagePasswordGridViewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/widget/ImagePasswordGridViewAdapter.java
+END
+ListViewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/widget/ListViewAdapter.java
+END
+SettingsListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/widget/SettingsListView.java
+END
+ScrollList.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/widget/ScrollList.java
+END
+SettingListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/widget/SettingListAdapter.java
+END
+HelpText.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/widget/HelpText.java
+END
+MakeActivityFullScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/widget/MakeActivityFullScreen.java
+END
+CustomMenuItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/widget/CustomMenuItem.java
+END
+OverlayListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/widget/OverlayListAdapter.java
+END

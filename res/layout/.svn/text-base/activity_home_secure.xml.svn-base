@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    
+    <RelativeLayout 
+        android:id="@+id/overlay_home_secure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+    <TextView
+        android:id="@+id/camera_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Medium Text"
+      	android:textSize="16px"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/camera_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/camera_count"
+        android:layout_alignBottom="@+id/camera_count"
+        android:layout_marginLeft="5px"
+        android:layout_toRightOf="@+id/camera_count"
+        android:text="Small Text"
+       	android:textSize="16px"
+       	 android:textColor="@color/white" 
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/camera_count"
+        android:layout_marginTop="10px"
+        android:orientation="vertical" >
+    </LinearLayout>
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lukup Player</string>
+
+    <color name="lukupwhite">#FFFFFFFF</color>
+    <color name="transparent_color">#00000000</color>
+    
+    <string name="LOCK_MESSAGE">Sorry, this is locked !</string>
+<!--     <string name="INVALID_EMAIL">Enter a correct email address</string> -->
+    <string name="CORRECT_IP">Enter correct IP address</string>
+    <string name="WRONG_PASSWORD">Oops ! Wrong password</string>
+    <string name="CREATENEW_TITLE">Enter Name</string>
+    <string name="RENAME_TITLE">Enter Name</string>
+    <string name="DELETE_TITLE">Do you want to delete this ?</string>
+    <string name="NETWORK_MESSAGE">No Internet Connection</string>
+    <string name="EMPTY_INPUT">This cannot be blank !</string>
+    <string name="PASSWORD_LENGTH">Must have at least 8 characters</string>
+    <string name="ENTER_PASSWORD">Enter password</string>
+    <string name="CORRECT_SUBNET">Enter valid subnet address</string>
+    <string name="CORRECT_GATEWAY">Enter valid gateway address</string>
+    <string name="CORRECT_DNS">Enter valid dns address</string>
+    <string name="DISTRIBUTOR">Distributor</string>
+    <string name="ENTER_DISTRIBUTOR_ID">Enter Distributor ID</string>
+    <string name="RE_ENTER_DISTRIBUTOR_ID">Re-Enter Distributor ID</string>
+     <string name="ENTER_DISTRIBUTOR_PASSWORD">Enter Distributor Password</string>
+    <string name="DISTRIBUTOR_NOT_MATCHED">Distributor ID does not match</string>
+    <string name="SUBMIT">SUBMIT</string>
+    <string name="OK">OK</string>
+    <string name="CANCEL">CANCEL</string>
+    <string name="LOGIN">Create profile</string>
+    <string name="DISTRIBUTOR_ID_NOTMATACHED">Distributor ID does not match</string>
+    <string name="ETHENET_CONNECTION_FAILED">Ethernet connection failed</string>
+    <string name="NO_LIVE_TV_CONNECTION">Oops! No live TV connection</string>
+    <string name="NO_LIVE_TV_OPERATOR">No TV Operators found</string>
+    <string name="SET_TV_OPERATOR">TV Operator is set</string>
+    <string name="PLEASE_REGISTER_SUBSCRIBERID">Please register subscriber ID:  </string>
+    <string name="SUBSCRIBER_ALREADY_EXISTS">This subscriber already exists !</string>
+    <string name="BROADBAND_NOT_SELECTED">Please select Broadband network</string>
+    <string name="HOTSPOT_ACTIVE">Wifi Hotspot active</string>
+    <string name="HOTSPOT_DEACTIVE">Wifi Hotspot disabled</string>
+    <string name="WIFI_CONNECTED">Wifi connected</string>
+    <string name="WIFI_CONNECTED_FAILURE">Enable to connect with Wifi</string>
+    <string name="NO_WIFI_CONNECTION">Oops! No Wifi Network found</string>
+    <string name="WIFI_PENDING">Enabling Wifi. Wait or try after some time</string>
+    <string name="WIFI_DISCONNECTED">Enable to Disconnect Wifi</string>
+    <string name="WIFI_DISCONNECTED_MSG">Do you wish to disconnect Wifi ?</string>
+    <string name="NO_CONNECTED_DEVICE">Oops! No connected Device</string>
+    
+<!--      profile -->
+    <string name="ENTER_PROFILE_NAME">Enter Profile name</string>
+    <string name="REGISTER">REGISTER</string>
+    <string name="SAVE">SAVE</string>
+    <string name="NO_PROFILES">No profiles found</string>
+    <string name="FACEBOOK_LOGIN">Facebook Login</string>
+    <string name="FACEBOOK_SYNC_MESSAGE">Do you want to sync with your facebook account?</string>
+    <string name="FACEBOOK_LOGIN_MESSAGE">Do you want to log in to your facebook account?</string>
+    <string name="ADD_NEW_PROFILE">Add New profile</string>
+    <string name="DELETE_PROFILE_MESSAGE">Do you want to delete this profile?</string>
+    <string name="DELETE_PROFILE">Delete Profile</string>
+    <string name="EDIT">Edit Profile</string>
+    <string name="ENABLE_CREATE_PROFILE">Create Profile</string>
+    <string name="RESET_PASSWORD">Do you want to reset password?</string>
+    <string name="PASSWORD_SET">Password reset success</string>
+    <string name="PASSWORD_SET_FAILURE">Failure resetting password</string> 
+    <string name="PROFILE_CREATION_FAILED">Problem creating your profile !</string>  
+    <string name="PROFILE_CREATION_SUCCESS">Created your profile !</string>
+    <string name="NAME_EDIT_FAILED">Problem editing your name !</string> 
+<!--     <string name="BTAUDIO_FAILURE">Enable to Play this Audio</string> -->
+    
+    <string name="PERSONALIZING_YOUR_EXPERIENCE">Personalizing your experience</string>
+	<string name="PROFILE_MSG1">Create your profile, view existing profiles, or switch from your current profile</string>
+	
+	<string name="EDIT_YOUR_PROFILE">Edit your profile</string>
+	<string name="PROFILE_MSG2">Long press on a profile to edit, remove or connect it to your social network</string>
+    
+    
+<!--     Search -->
+	<string name="NO_RESULT">No result found</string>
+	<string name="SUBSCRIBE_MESSAGE">Do you wish to </string>
+	<string name="UNABLE_TO_PLAY">Unable to play</string>
+	<string name="NO_DEVICES">No devices found</string>
+	<string name="SEARCH_MSG">Enter Title, Actor name</string>
+	
+	<string name="SEARCHING_CONTENT">Searching content</string>
+	<string name="SEARCH_MSG1">Type in a name, actor, director, etc in the search box on this screen</string>
+	
+	<string name="SEARCH_MSG2">Select a category to filter search results</string>
+	
+	<string name="YOUR_SEARCH_RESULTS">Your search results</string>
+	<string name="SEARCH_MSG3">Long press on a result to see your options. Tap to play.</string>
+
+	<string name="ON_DEMAND_CONTENT">On demand content</string>
+	<string name="SEARCH_MSG4">Like to add to your favourites, Add to playlist, Subscribe to content</string>
+	
+	<string name="LIVE_TV_CONTENT">Live TV content</string>
+	<string name="SEARCH_MSG5">Set reminders and record programs, Like to add to your favourites</string>
+		
+<!-- SUBSCRIBE -->
+	<string name="SUBSCRIBER_MESSAGE1">Long press on</string>
+	<string name="SUBSCRIBER_MESSAGE2">in the list to subscribe.</string>
+	
+<!-- 	Storage -->
+	<string name="NO_CONTENT">Oops no content found!</string>
+	<string name="NO_RECORDED_CONTENT">No recorded content found</string>
+	<string name="REMOVE_ITEM">Do you wish to remove this item?</string>
+
+    <string name="USB_IS_MOUNTED">USB is unavailable</string>
+    
+    <string name="ACCESS_STORED_CONTENT">Access stored content</string>
+	<string name="STORAGE_MSG1">Select Local storage for content on your USB device, and Cloud to browse content you have recorded</string>
+	
+	<string name="WELCOME_TO_YOUR_CLOUD_DVR">Welcome to your cloud DVR</string>
+	<string name="STORAGE_MSG2">You can see what is recorded, select to view them on your TV, or remove them. Long press a stored item to see options.</string>
+	
+	<string name="BROWSE_CONTENT_ON_USB">Browse content on USB</string>
+	<string name="STORAGE_MSG3">Just tap on an item to play, or long press on it to see options.</string>
+	
+	<string name="DOWNLOAD_SUCCESS">Downloaded successfully !</string>
+	<string name="DOWNLOAD_FAIL">Download failed !</string>
+	
+<!--     Organise -->
+    <string name="ORGANISE_MSG">Enter Media RSS Url </string>
+    <string name="ORGANISE_FETCH_BUTTON">Fetch</string>
+    <string name="FETCH_DATA">Fetching data is complete</string>
+    <string name="ORGANISE_CREATE">Channel is created </string>
+    <string name="ORGANISE_ADDTO">Successfully done! </string>
+    <string name="ORGANISE_ADDTO_FAILURE">Operation failed </string>
+    
+    <string name="IMPORTING_CONTENT_INTO_YOUR_CHANNELS">Importing content into your channels</string>
+	<string name="ORGANISE_MSG1">Create your own TV channel and select it on the TV guide to import online content</string>
+	
+    
+<!--    PlayBack  -->
+    <string name="MESSAGE_FOR_REPLAY">Do you wish play this video?</string>
+    <string name="VIDEODIALOG">Playback video</string>
+    
+<!--     Plan -->
+    <string name="SOMTHING_WRONG">Oops! Somthing went wrong.</string>
+    <string name="REMOVE_TITLE">Remove</string>
+    <string name="UNABLETOPLAY">Oops! Unable to Play this file.</string>
+    
+    <string name="SHORTCUTS_TO_YOUR_CONTENT">Short cuts to your content</string>
+	<string name="PLAN_MSG1">View your favourites, reminders and recorded content</string>
+	
+	<string name="CONTENT_YOU_LIKED">Content you liked</string>
+	<string name="PLAN_MSG2">Tap on an item to view, or long press on it to see an option to remove from favourites</string>
+	
+	<string name="REMINDERS_YOU_HAVE_SETUP">Reminders you have set up</string>
+	<string name="PLAN_MSG3">Review the list, or long press on an item to see an option to remove it </string>
+	
+	<string name="CONTENT_RECORDED_FOR_YOU">Content recorded for you</string>
+	<string name="PLAN_MSG4">Review the list to see the status of your recording schedule, or long press on an item to see an option to remove it from this list</string>
+    
+<!-- 	Screens -->
+    <string name="SCREEN_NO_CONTENT">No content is playing on any of your screens.</string>
+    
+<!--     Playlist -->
+	<string name="ADDED">Added to your playlist.</string>
+    <string name="REMOVED">Removed from your playlist.</string>
+    
+    <string name="VIEW_AND_ARRANGE_YOUR_PLAYLIST"> View and arrange your playlist</string>
+	<string name="PLAYLIST_MSG1">Leave your playlist as it is if you want the content to play one after the other, or long press on an item to remove it from your playlist</string>	
+    
+<!--     Player Home -->
+	<string name="BTDISCONNECT">Player disconnected. Press OK to connect.</string>
+	<string name = "BTDEVICENOTFOUND">Go to Settings to connect.</string>
+	<string name="REMOVE_SOFTKEYBOARD">Do you wish to close keyboard?</string>
+	
+<!--     Screens -->
+	<string name="SCREENS">Control your playing content on different screens and devices from here.</string>
+	<string name="FAILED_LOAD">Failed to load file.</string>
+	<string name = "DLNA_ERROR">Failed playing media</string>
+	<string name ="FAILED_UNLOAD">Failed to unload file.</string>
+	
+	
+<!-- 	AppGuide -->
+	<string name="GAME_FAILURE">No Games</string>
+	<string name="POWER_BUTTON_MSG">Point the Player straight to the Dock.</string>
+	
+<!-- 	Guide -->
+	<string name="CONTENT_BOUQUETS">Content bouquets</string>
+	<string name="GUIDE_MSG1">Tap on a bouquet to see its channels. Long press to see other options.</string>	
+	
+	<string name="ORGANIZING_CONTENT"> Organizing content</string>
+	<string name="GUIDE_MSG2">Select Organize to create your own channel</string>	
+	
+	<string name="CHANNELS">Channels</string>
+	<string name="GUIDE_MSG3">Tap on a channel to see its programs. Long press to see other options</string>	
+	
+	<string name="ON_DEMAND_CHANNELS">On demand channels</string>
+	<string name="GUIDE_MSG4">Like to add to your favourites, Lock to disable access, Subscribe to channel</string>	
+	
+	<string name="LIVE_TV_CHANNELS">Live TV channels</string>
+	<string name="GUIDE_MSG5">Like to add to your favourites, Lock to disable access</string>	
+	
+	<string name="YOUR_PERSONAL_CHANNEL">Your personal channel</string>
+	<string name="GUIDE_MSG6">Like to add to your favourites, Lock to disable access, Import content into channel</string>	
+	
+	<string name="PROGRAMS">Programs</string>
+	<string name="GUIDE_MSG7">Tap on a program to play or long press to see other options. </string>	
+	
+	<string name="LIVE_TV_PROGRAMS">Live TV programs</string>
+	<string name="GUIDE_MSG8">Set a reminder, Record to view later</string>	
+	
+	<string name="INTERACTIVE_APPLICATIONS">Interactive applications</string>
+	<string name="GUIDE_MSG9">Install to use, Uninstall to remove</string>	
+	
+	<string name="PERSONAL_CONTENT">Personal content</string>
+	<string name="GUIDE_MSG10">Like to add to favourites, Add to your playlist, Move to another channel</string>		
+	
+	
+<!-- 	Setup -->
+	<string name="HELP_MSG">Do you need help?</string>
+	
+	<string name="SETTING_UP_THE_LUKUPPLAYER">Setting up the Lukup Player</string>
+	<string name="SETUP_MSG1">Configure networks, select your TV provider, view account and product information</string>
+	
+	<string name="CONNECT_YOUR_LUKUPPLAYER">Connect your Lukup Player</string>
+	<string name="SETUP_MSG2">Select Ethernet for wired broadband connection, Wireless to connect to your wifi router, Hotspot to connect other devices to the Lukup Player. Hotspot only works when Ethernet is connected.</string>
+	
+	<string name="CONNECTING_TO_WIRED_BROADBAND">Connecting to wired broadband</string>
+	<string name="SETUP_MSG3">Manually set up your connection by entering IP address, or Automatically connect by a dynamic IP address. Automatic only works when DHCP is enabled on your broadband router.</string>
+	
+	<string name="CONTROLLING_YOUR_EXISTING_TV_SET_TOPBOX">Controlling your TV set top box</string>
+	<string name="SETUP_MSG4">Select your TV provider now. This will configure the Lukup Player so that you can use it to control your set top box as well. All TV programs will start showing up on the Lukup Player.</string>
+	
+	<string name="SUPPORT_FROM_YOUR_LOCAL_DISTRIBUTOR">Support from your local distributor</string>
+	<string name="SETUP_MSG5">This has to be entered only by the distributor who installs the Lukup Player so that the system knows who to dial for support in case this product needs it.</string>
+	
+<!-- 	TVRemote	 -->
+	<string name="CONTROL_YOUR_SET_TOPBOX">Control your set top box</string>
+	<string name="TVREMOTE_MSG1">Use the buttons on this screen to control the set top box that is connected to your Lukup Player. Point your Lukup Player straight to the connected set top box.</string>
+    
+<!-- 	Home -->
+	<string name="CHOOSING_YOUR_PROFILE">Choosing your profile</string>
+	<string name="HOME_MSG1">Choosing \u0027Guest\u0027 below allows you to use the Player anonymously. Or, select \u0027Switch profile\u0027 to personalize.</string>	
+	
+<!-- 	<string name="USING_THE_TVSCREEN">Using the TV screen</string> -->
+<!-- 	<string name="HOME_MSG2">Select \u0027Browse on TV\u0027 below to browse and select titles on the TV screen.</string>	 -->
+	
+	<string name="GETTING_STARTED">Getting started</string>
+	<string name="HOME_MSG3">See featured content here. Press the lukup button below to use applications. Use the volume bar on the top and see battery and network status on the status bar above. </string>	
+	
+<!-- 	Navigator -->
+	<string name="CONTROLLING_YOUR_TV">Controlling your TV</string>
+	<string name="NAVIGATOR_MSG1">Swipe on this screen to move focus on the currently selected item on the TV screen. Tap to select.</string>	
+	<string name="NAVIGATOR_TOAST">Swipe Right, Left, Up, Down to navigate on the TV screen.</string>
+
+<!-- 	AppGuide -->
+	<string name="APPGUIDE">Using applications</string>
+	<string name="APPGUIDE_MSG1">Tap on an application icon to use. Long press on items inside applications to view context menus.</string>	
+	
+<!-- 	PlayBack -->
+	<string name="PLAYBACK">Playing content</string>
+	<string name="PLAYBACK_MSG1">Tap on the seekbar to pause, stop, fast forward and rewind content. Press on the menu button on the Lukup Player to see contextual actions available.</string>		
+	
+<!-- 	Layout -->
+	<string name="BT_REBOOT_MSG">Bluetooth not working. Please Reboot Player.</string>
+	<string name="DISCONNECT_MSG">Player disconnected. Click OK to connect.</string>
+	<string name="BT_DISCONNECT_MSG">Player not connected to Dock. Click OK to connect or CANCEL to use on mobile mode.</string>
+	
+<!-- 	Mobile Data -->
+    <string name="action_settings">Settings</string>
+<!--     <string name="LukUpLink">http://staging.lukup.com</string> -->
+    <string name="LukUpLink">http://www.lukup.com</string>
+	<string name="BouquetData">/portal/BouquetListingServlet</string>
+	<string name="adsData">/portal/MPFullScreenAds?date=</string>
+	<string name="adImpressionData">/portal/MPStatServlet?method=updateStats&amp;appId=</string>
+	<string name="channelData">/mpsubscribe/FetchEventServlet?serviceid=</string>
+	<string name="subscribeData">/mpsubscribe/SubscribeServlet?type=subscribedServices&amp;subscriberid=</string>
+	<string name="infoData">/portal/UserAction.do?method=details&amp;pid=</string>
+	<string name="searchData">/search/search</string>
+<!-- 	for Cloud -->
+	<string name="retrieveData">/SMS/RecordStorageServlet?method=retrieve&amp;subscriberid=</string>
+	<string name="recordInfoData">/SMS/RecordStorageServlet?method=info&amp;subscriberid=</string>
+		<string name="PPPoE">Connected via PPPoE </string>
+		<string name="PPPoEFailure">Unable to Connect</string>
+		<string name="PPPoEWrong">UserName or Password Wrong !</string>
+		
+		
+	<string name="Heading_Detail">As of rev 17 of the Android Developer Tools, the correct way to add a library jar when.using the tools and Eclipse is to create a directory called libs on the same level as your src and assets directories and then drop the jar in there. Nothing else.required, the tools take care of all the rest for you automatically.As of rev 17 of the Android Developer Tools, the correct way to add a library jar when.using the tools and Eclipse is to create a directory called libs on the same level as your src and assets directories and then drop the jar in there. Nothing else.required, the tools take care of all the rest for you automatically.As of rev 17 of the Android Developer Tools, the correct way to add a library jar when.using the tools and Eclipse is to create a directory called libs on the same level as your src and assets directories and then drop the jar in there. Nothing else.required, the tools take care of all the rest for you automatically.</string>
+    <string name="AUTO">Auto</string>
+    <string name="MANUAL">Manual</string>
+    <string name="ALWAYS_DAY_MODE">Always Day Mode</string>
+    <string name="ALWAYS_NIGHT_MODE">Always Night Mode</string>
+    <string name="Day_Mode_Schedule">Day Mode Schedule</string>
+    <string name="FAILURE_MSG">Unable To Change The Requested Mode</string>
+    <string name="MONDAY">Monday</string>
+    <string name="TUESDAY">Tuesday</string>
+    <string name="WEDNESDAY">Wednesday</string>
+    <string name="THURSDAY">Thursday</string>
+    <string name="FRIDAY">Friday</string>
+    <string name="SATURDAY">Saturday</string>
+    <string name="SUNDAY">Sunday</string>
+    <string name="ALWAYS_UPLOAD_VIDEO">Always Upload Video</string>
+    <string name="SCHEDULE_UPLOAD">Schedule Upload</string>
+	 <string name="PROCESS_ACTION">Process Action &gt;&gt;&gt;&gt;&gt;.</string>
+	<string name="PLAY_ERROR">Format not supported</string>	
+	<string name = "STARTOVER_MESSAGE">Do you want to Startover or Pause</string>
+	<string name ="STARTOVER">StartOver</string>
+	<string name = "Pause">Pause</string>
+	<string name = "EXO_ERROR"> Unable to play video</string>
+	<string name ="USERNAME">Username</string>
+	<string name = "PASSWORD">Password</string>
+	<string name = "SIGNIN">Log in</string>
+	<string name ="LOGIN_FAIL">Login failed. Please try again. </string>
+	<string name = "PAIRING_FAIL">Unable to connect device</string>
+	<string name = "SEARCH_RESULT_FAILURE"> Oops no content! Try again!</string>
+	<string name="BouquetDataURL">/portal/BouquetListingServlet?distributorid=jyoti@lukup.com</string>
+	<string name = "GUEST_ERROR">Profile Guest cannot be edited</string>
+	
+	<!-- Facebook app id -->
+	<string name ="facebook_app_id">210799812304634</string>
+	<string name= "SHARE_ERROR">Failed sharing on Facebook.</string>
+	
+</resources>

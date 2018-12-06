@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/overlay_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/rlayoutImage"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="15dip" >
+
+            <ImageView
+                android:id="@+id/appicon"
+                android:layout_width="56dip"
+                android:layout_height="56dip"
+                android:contentDescription="  "
+                android:src="@color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlayouttext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dip"
+                android:layout_marginTop="8dip"
+                android:text="Title"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/companyname"
+                android:layout_width="120dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dip"
+                android:layout_marginTop="30dip"
+                android:text="Company Name"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/rate1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/likes"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/v13_ico_rate_14_white" />
+
+            <ImageView
+                android:id="@+id/rate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/rate1"
+                android:layout_toRightOf="@+id/rate1"
+                android:src="@drawable/v13_ico_rate_14_white" />
+
+            <ImageView
+                android:id="@+id/rate3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/rate2"
+                android:layout_toRightOf="@+id/rate2"
+                android:src="@drawable/v13_ico_rate_14_white" />
+
+            <ImageView
+                android:id="@+id/rate4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/rate3"
+                android:layout_toRightOf="@+id/rate3"
+                android:src="@drawable/v13_ico_rate_14_gray" />
+
+            <ImageView
+                android:id="@+id/rate5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/rate4"
+                android:layout_toRightOf="@+id/rate4"
+                android:src="@drawable/v13_ico_rate_14_gray" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/rate5"
+                android:layout_marginLeft="27dp"
+                android:layout_toRightOf="@+id/rate5"
+                android:text="1006789"
+                android:textColor="@color/white"
+                android:textSize="8dip" />
+
+            <TextView
+                android:id="@+id/likes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/companyname"
+                android:layout_marginTop="14dp"
+                android:layout_toRightOf="@+id/title"
+                android:text="60,32,768"
+                android:textColor="@color/white"
+                android:textSize="8dip" />
+
+            <ImageView
+                android:id="@+id/likeimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/likes"
+                android:layout_alignLeft="@+id/companyname"
+                android:src="@drawable/v13_ico_like_14_white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="8dip"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/likeimage"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

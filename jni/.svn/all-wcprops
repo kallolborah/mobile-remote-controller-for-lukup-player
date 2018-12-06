@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repos/android-player/!svn/ver/8/trunk/src/jni
+END
+hc.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/android-player/!svn/ver/8/trunk/src/jni/hc.h
+END
+IR_IOCTL.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/android-player/!svn/ver/8/trunk/src/jni/IR_IOCTL.c
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/android-player/!svn/ver/8/trunk/src/jni/Android.mk
+END
+dishtv.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/android-player/!svn/ver/8/trunk/src/jni/dishtv.h
+END
+lukup-IR.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/android-player/!svn/ver/8/trunk/src/jni/lukup-IR.cpp
+END
+indigital.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/android-player/!svn/ver/8/trunk/src/jni/indigital.h
+END
+sun.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/android-player/!svn/ver/8/trunk/src/jni/sun.h
+END
+hathway.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/android-player/!svn/ver/8/trunk/src/jni/hathway.h
+END
+videocon.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/android-player/!svn/ver/8/trunk/src/jni/videocon.h
+END
+act.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/android-player/!svn/ver/8/trunk/src/jni/act.h
+END
+serial.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/android-player/!svn/ver/8/trunk/src/jni/serial.h
+END
+tatasky.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/android-player/!svn/ver/8/trunk/src/jni/tatasky.h
+END
+ir-jni.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/android-player/!svn/ver/8/trunk/src/jni/ir-jni.c
+END
+Application.mk
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/android-player/!svn/ver/8/trunk/src/jni/Application.mk
+END
+broadcom.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/android-player/!svn/ver/8/trunk/src/jni/broadcom.h
+END

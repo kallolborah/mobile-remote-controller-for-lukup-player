@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/baseLayout"
+        android:layout_width="280dip"
+        android:layout_height="170dip"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/dialogLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="34dip" >
+
+            <TextView
+                android:id="@+id/overlayTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dip"
+                android:layout_gravity="bottom"
+                android:textColor="@color/pink"
+                android:textSize="18dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dialogLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="66dip"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="16dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/alertlogo"
+                android:layout_width="32dip"
+                android:layout_height="32dip"
+                android:layout_marginLeft="24dip"
+                android:layout_gravity="center_vertical"
+                android:src="@android:color/transparent" />
+
+            <TextView
+                android:id="@+id/messageView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="16dip"
+                android:layout_marginRight="16dip"
+                android:gravity="center_vertical"
+                android:textColor="@color/gray_textcolor"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dialogLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="36dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="15dip"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/okButton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/list_selector"
+                android:gravity="center"
+                android:text="YES"
+                android:layout_marginRight="10dip"
+                android:textColor="@color/white"
+                android:textSize="14dip" />
+
+            <Button
+                android:id="@+id/overlayCancelButton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/list_selector"
+                android:gravity="center"
+                android:text="NO"
+                android:layout_marginLeft="10dip"
+                android:textColor="@color/white"
+                android:textSize="14dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

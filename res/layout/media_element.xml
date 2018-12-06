@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/playlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:layout_marginLeft="24dip"
+        android:layout_marginRight="24dip"
+        android:layout_gravity="center|center_vertical"
+        android:background="@color/white" >
+
+        <Button
+            android:id="@+id/playBtn"
+            android:layout_width="36dip"
+            android:layout_height="36dip"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="16dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/v13_ico_player_pause_01" />
+
+        <SeekBar
+            android:id="@+id/mediacontrolerSeek"
+            android:layout_width="186dip"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:max="100"
+            android:maxHeight="8dip"
+            android:progress="0"
+            android:progressDrawable="@drawable/v13_custom_seekbar"
+            android:thumb="@drawable/v13_customseekbar_thumb" />
+
+       <Button
+            android:id="@+id/stopBtn"
+            android:layout_width="36dip"
+            android:layout_height="36dip"
+            android:layout_marginRight="6dip"
+            android:layout_toRightOf="@+id/mediacontrolerSeek"
+            android:layout_centerVertical="true"
+            android:background="@drawable/v13_ico_player_stop_01" />
+
+<!--         <TextView -->
+<!--             android:id="@+id/mediaTimeText" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_alignParentRight="true" -->
+<!--             android:layout_below="@+id/mediacontrolerSeek" -->
+<!--             android:layout_marginRight="12dip" -->
+<!--             android:background="@android:color/holo_blue_light" -->
+<!--             android:text="00:00:00 / 00:00:00" -->
+<!--             android:textColor="@color/white" -->
+<!--             android:textSize="12dip" /> -->
+    </RelativeLayout>
+   	 <TextView
+            android:id="@+id/mediaTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/playlayout"
+            android:layout_below="@+id/playlayout"
+            android:text="00:00:00"
+            android:textColor="@color/white"
+            android:textSize="14dip" />
+
+</RelativeLayout>

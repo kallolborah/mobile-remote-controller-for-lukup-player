@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/dialogLayout"
+        android:layout_width="272dip"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/dialogLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="38dip"
+            android:background="@android:color/transparent" >
+
+            <TextView
+                android:id="@+id/overlayTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="20dip"
+                android:layout_marginLeft="16dip"
+                android:layout_marginTop="16dip"
+                android:textColor="@color/pink"
+                android:textSize="18dip" />
+        </LinearLayout>
+<!-- android:text="Enter the Name" -->
+        <LinearLayout
+            android:id="@+id/dialogLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/messageView"
+                android:layout_width="wrap_content"
+                android:layout_height="26dip"
+                android:layout_marginLeft="16dip"
+                android:layout_marginTop="16dip"
+                android:textColor="@color/gray_textcolor"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/keyValue"
+                android:layout_width="240dip"
+                android:layout_height="36dip"
+                android:layout_marginBottom="16dip"
+                android:layout_marginLeft="16dip"
+                android:layout_marginTop="24dip"
+                android:paddingLeft="8dip"
+                android:textColorHint="#555555"
+                android:textColor="@android:color/black"
+                android:text="" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dialogLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="36dip"
+            android:layout_marginBottom="16dip"
+            android:layout_marginRight="16dip"
+            android:layout_marginLeft="16dip"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/overlayOkButton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/list_selector"
+                android:gravity="center"
+                android:text="OK"
+                android:textColor="@color/white"
+                android:layout_marginRight="10dip"
+                android:textSize="14dip" />
+
+            <Button
+                android:id="@+id/overlayCancelButton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/list_selector"
+                android:gravity="center"
+                android:text="CLOSE"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dip"
+                android:textSize="14dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

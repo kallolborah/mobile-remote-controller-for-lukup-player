@@ -1,0 +1,425 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/android-player/!svn/ver/8/trunk/src/res/layout
+END
+notification_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/notification_list.xml
+END
+activity_video.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/activity_video.xml
+END
+overlay_fetchcontent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/overlay_fetchcontent.xml
+END
+simplelist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/simplelist.xml
+END
+mcustom_menu_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/mcustom_menu_item.xml
+END
+layout_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/layout_item.xml
+END
+overlay_confirm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/overlay_confirm.xml
+END
+gamepad.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/gamepad.xml
+END
+activity_bouquet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/activity_bouquet.xml
+END
+moverlay_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/moverlay_message.xml
+END
+activity_date_time_picker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/activity_date_time_picker.xml
+END
+layout_subitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/layout_subitem.xml
+END
+initialsetup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/initialsetup.xml
+END
+activity_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/activity_item.xml
+END
+custom_menu_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/custom_menu_item.xml
+END
+overlay_getvalue.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/overlay_getvalue.xml
+END
+videocon_remote.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/videocon_remote.xml
+END
+moverlay_add_account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/moverlay_add_account.xml
+END
+activity_home_secure_schedule.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/activity_home_secure_schedule.xml
+END
+activity_detail_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/activity_detail_list_item.xml
+END
+dropdownlist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/dropdownlist.xml
+END
+player.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/player.xml
+END
+shedule_mode.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/shedule_mode.xml
+END
+media_detail_page.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/media_detail_page.xml
+END
+activity_popup_input.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/activity_popup_input.xml
+END
+appguide.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/appguide.xml
+END
+custom_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/custom_menu.xml
+END
+mediainfo_element.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/mediainfo_element.xml
+END
+overlay_imagepassword.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/overlay_imagepassword.xml
+END
+activity_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/activity_info.xml
+END
+gamepadcontroll_map.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/gamepadcontroll_map.xml
+END
+activity_application_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/activity_application_list.xml
+END
+list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/list.xml
+END
+overlay_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/overlay_list.xml
+END
+activity_play.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/activity_play.xml
+END
+act_remote.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/act_remote.xml
+END
+overlay_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/overlay_message.xml
+END
+videoviewer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/videoviewer.xml
+END
+overlay_help.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/overlay_help.xml
+END
+imagepassword_griditem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/imagepassword_griditem.xml
+END
+activity_installer_ui_application.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/activity_installer_ui_application.xml
+END
+settingslist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/settingslist.xml
+END
+profile_elements.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/profile_elements.xml
+END
+help_text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/help_text.xml
+END
+navigation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/navigation.xml
+END
+featured.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/featured.xml
+END
+tablayout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/tablayout.xml
+END
+overlay_add_account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/overlay_add_account.xml
+END
+dropdown_element.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/dropdown_element.xml
+END
+hathway.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/hathway.xml
+END
+incable_remote.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/incable_remote.xml
+END
+broadband.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/broadband.xml
+END
+dishtv_remote.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/dishtv_remote.xml
+END
+tataskyoverlay_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/tataskyoverlay_list.xml
+END
+sun_remote.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/sun_remote.xml
+END
+customnotification.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/customnotification.xml
+END
+den_remote.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/den_remote.xml
+END
+activity_popup_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/activity_popup_message.xml
+END
+dvb_remote.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/dvb_remote.xml
+END
+media_element.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/media_element.xml
+END
+home.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/home.xml
+END
+guidelist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/guidelist.xml
+END
+tatasky_remote.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/tatasky_remote.xml
+END
+activity_application_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/activity_application_detail.xml
+END
+activity_installer_ui_application_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/activity_installer_ui_application_list_item.xml
+END
+home_list1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/home_list1.xml
+END
+searchscreen.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/searchscreen.xml
+END
+home_list2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/home_list2.xml
+END
+home_list3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/home_list3.xml
+END
+activity_home_secure.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/android-player/!svn/ver/8/trunk/src/res/layout/activity_home_secure.xml
+END

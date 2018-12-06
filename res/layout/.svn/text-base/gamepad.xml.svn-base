@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/pink" >
+
+    <!-- Left side Joy stick Button creation -->
+
+    <Button
+        android:id="@+id/gp_up"
+        android:layout_width="72dip"
+        android:layout_height="44dip"
+        android:layout_marginLeft="60dip"
+        android:layout_marginTop="82dip"
+        android:onClick="OnUpArrow"
+        android:background="@drawable/gp_arw_up" />
+
+    <Button
+        android:id="@+id/gp_down"
+        android:layout_width="72dip"
+        android:layout_height="44dip"
+        android:layout_below="@+id/gp_left"
+        android:layout_marginLeft="60dip"
+        android:background="@drawable/gp_arw_down"
+        android:onClick="OnDownArrow"
+        android:text="" />
+
+    <Button
+        android:id="@+id/gp_left"
+        android:layout_width="44dip"
+        android:layout_height="72dip"
+        android:layout_below="@+id/gp_up"
+        android:layout_marginLeft="14dip"
+        android:onClick="OnLeftArrow"
+        android:background="@drawable/gp_arw_left" />
+
+    <Button
+        android:id="@+id/gp_right"
+        android:layout_width="44dip"
+        android:layout_height="72dip"
+        android:layout_below="@+id/gp_up"
+        android:layout_marginLeft="134dip"
+        android:onClick="OnRightArrow"
+        android:background="@drawable/gp_arw_right" />
+    
+    <Button
+        android:id="@+id/break_option"
+        android:layout_width="64dip"
+        android:layout_height="36dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="20dip"
+        android:onClick="OnBreak"
+        android:background="#ffffff" />
+    
+    <Button
+        android:id="@+id/throttle_option"
+        android:layout_width="64dip"
+        android:layout_height="36dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_alignParentRight="true"
+        android:onClick="OnThrottle"
+        android:background="#ffffff" />
+
+    <!-- Left & Right action Button -->
+	<RelativeLayout 
+	    android:id="@+id/uplayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+	    <Button
+	        android:id="@+id/left_option"
+	        android:layout_width="40dip"
+	        android:layout_height="40dip"
+	        android:layout_marginTop="4dip"
+	        android:onClick="OnLeft"
+	        android:background="@drawable/btn_o_circle_left" />
+	
+	
+	    <Button
+	        android:id="@+id/right_option"
+	        android:layout_width="40dip"
+	        android:layout_height="40dip"
+	        android:layout_marginLeft="62dp"
+	        android:layout_toRightOf="@+id/left_option"
+	        android:onClick="OnRight"
+	        android:background="@drawable/btn_o_circle_right" />
+	</RelativeLayout>
+
+    <!-- right side Joystick buttons design -->
+
+    <Button
+        android:id="@+id/joystick_y"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="72dip"
+        android:layout_marginTop="80dip"
+        android:onClick="OnOptionY"
+        android:background="@drawable/btn_o_circle_y" />
+
+    <Button
+        android:id="@+id/joystick_a"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="72dip"
+        android:layout_marginTop="184dip"
+        android:onClick="OnOptionA"
+        android:background="@drawable/btn_o_circle_a" />
+
+    <Button
+        android:id="@+id/joystick_b"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dip"
+        android:layout_marginTop="132dip"
+        android:onClick="OnOptionB"
+        android:background="@drawable/btn_o_circle_b" />
+
+    <Button
+        android:id="@+id/joystick_x"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="126dip"
+        android:layout_marginTop="132dip"
+        android:onClick="OnOptionX"
+        android:background="@drawable/btn_o_circle_x" />
+
+    <!-- select and start button and textview design -->
+	<RelativeLayout 
+	    android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+    <LinearLayout
+        android:id="@+id/select_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/select_option"
+            android:layout_width="40dip"
+	        android:layout_height="40dip"
+            android:layout_gravity="center_horizontal"
+            android:onClick="OnSelect"
+            android:background="@drawable/gp_btn_sm_dot" />
+
+        <TextView
+            android:id="@+id/select_option_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SELECT"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/start_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="62dip"
+        android:layout_toRightOf="@+id/select_layout"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/start_option"
+            android:layout_width="40dip"
+	        android:layout_height="40dip"
+            android:layout_gravity="center_horizontal"
+            android:onClick="OnStart"
+            android:background="@drawable/gp_btn_sm_dot" />
+
+        <TextView
+            android:id="@+id/start_option_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="START"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

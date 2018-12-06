@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent" >
+
+    <LinearLayout
+        android:id="@+id/dialogLayout"
+        android:layout_width="280dip"
+        android:layout_height="wrap_content"
+        android:background="@color/pink"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/overlayheader"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:background="@android:color/transparent" >
+
+            <TextView
+                android:id="@+id/tataskyoverlayTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="20dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="12dip"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/actionlayer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/tataskyoverlaylistlayer"
+                android:layout_width="280dip"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent" >
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

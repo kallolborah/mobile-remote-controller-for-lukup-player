@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogLayout"
+    android:layout_width="280dip"
+    android:layout_height="wrap_content"
+    android:background="@color/pink"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="280dip"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:id="@+id/closeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/v13_btn_close_01" />
+
+        <TextView
+            android:id="@+id/overlayTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginTop="12dip"
+            android:textColor="@color/white"
+            android:textSize="18dip" />
+    </RelativeLayout>
+	<View
+	 	android:id="@+id/lineview1" 
+  	 	android:layout_width="match_parent"
+  	 	android:layout_height="1dip"
+  	 	android:layout_alignParentBottom="true"
+  	 	android:background="#ffffff"/>
+    <ListView
+        android:id="@+id/overlayList"
+        android:layout_width="280dip"
+        android:layout_height="wrap_content"
+        android:background="@color/pink" />
+
+</LinearLayout>

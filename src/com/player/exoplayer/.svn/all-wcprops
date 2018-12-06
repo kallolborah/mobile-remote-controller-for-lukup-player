@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/exoplayer
+END
+DemoUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/exoplayer/DemoUtil.java
+END
+UnsupportedDrmException.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/exoplayer/UnsupportedDrmException.java
+END
+WidevineTestMediaDrmCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/exoplayer/WidevineTestMediaDrmCallback.java
+END
+DashRendererBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/exoplayer/DashRendererBuilder.java
+END
+LukupPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/android-player/!svn/ver/8/trunk/src/src/com/player/exoplayer/LukupPlayer.java
+END
